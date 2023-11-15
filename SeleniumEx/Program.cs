@@ -3,43 +3,89 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using SeleniumEx;
 
-GHPTest gHPTest = new GHPTest();
+
 
 List<string> drivers = new List<string>();
 //drivers.Add("Edge");
 drivers.Add("Chrome");
 
+
+
 foreach (var d in drivers)
 {
-    switch(d)
+    AmazonTest az = new AmazonTest();
+    switch (d)
     {
         case "Edge":
-            gHPTest.InitializeEdgeDriver();
+            az.InitializeEdgeDriver();
             break;
         case "Chrome":
-            gHPTest.InitializeChromeDriver();
+            az.InitializeChromeDriver();
             break;
 
     }
     try
     {
-        //gHPTest.TitleTest();
-        //gHPTest.PageSourceandURLTest();
-        //gHPTest.GSTest();
-        //gHPTest.GmailLinkTest();
-        //gHPTest.ImageslLinkTest();
-        //gHPTest.LocalizationTest();
-        gHPTest.GAppYoutubeTest();
+        //az.TitleTest();
+        //az.LogoClickTest();
+        //az.SearchProductTest();
+        //az.ReloadHomePage();
+        //az.TodaysDealsTest();
+        // az.SignInAccList();
+        az.SearchandFilterProductByBrand();
     }
     catch (AssertionException)
     {
 
-        Console.WriteLine("Test - Fail");
+        Console.WriteLine("Fail");
+    }
+    catch (NoSuchElementException nse)
+    {
+        Console.WriteLine(nse.Message);
     }
 
-   
+    az.Destruct();
+
 }
-gHPTest.Destruct();
+
+
+//GHPTest gHPTest = new GHPTest();
+
+//List<string> drivers = new List<string>();
+////drivers.Add("Edge");
+//drivers.Add("Chrome");
+
+//    foreach (var d in drivers)
+//{
+//    switch(d)
+//    {
+//        case "Edge":
+//            gHPTest.InitializeEdgeDriver();
+//            break;
+//        case "Chrome":
+//            gHPTest.InitializeChromeDriver();
+//            break;
+
+//    }
+//try
+//{
+//gHPTest.TitleTest();
+//gHPTest.PageSourceandURLTest();
+//gHPTest.GSTest();
+//gHPTest.GmailLinkTest();
+//gHPTest.ImageslLinkTest();
+//gHPTest.LocalizationTest();
+//gHPTest.GAppYoutubeTest();
+//    }
+//    catch (AssertionException)
+//    {
+
+//        Console.WriteLine("Test - Fail");
+//    }
+
+   
+//}
+//gHPTest.Destruct();
 
 
 //Console.WriteLine("1. EDGE 2. CHROME");
