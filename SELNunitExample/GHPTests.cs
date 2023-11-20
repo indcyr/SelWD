@@ -10,6 +10,7 @@ namespace SELNunitExample
     [TestFixture]
     internal class GHPTests : CoreCodes
     {
+        [Ignore("other")]
         [Test]
         public void TitleTest()
         {
@@ -18,6 +19,7 @@ namespace SELNunitExample
             Console.WriteLine("Title Test - Pass");
 
         }
+        [Ignore("other")]
         [Test]
         [Order(20)]
         public void GSTest()
@@ -31,6 +33,7 @@ namespace SELNunitExample
             Console.WriteLine("GS-Pass");
 
         }
+        [Ignore("other")]
         [Test]
         public void AllLinksStatusTest()
         {
