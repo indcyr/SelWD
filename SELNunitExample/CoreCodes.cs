@@ -51,6 +51,15 @@ namespace SELNunitExample
             driver.Manage().Window.Maximize();
             
         }
+        public void TakeScreenShot()
+        {
+            ITakesScreenshot iss = (ITakesScreenshot)driver;
+            Screenshot ss = iss.GetScreenshot();
+
+            string currdir = Directory.GetParent(@"../../../").FullName;
+            string filepath = currdir + "/Screenshots/ss_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".png";
+            ss.SaveAsFile(filepath);
+        }
         public bool CheckLinkStatus(string url)
         {
             try

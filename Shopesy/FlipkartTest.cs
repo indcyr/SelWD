@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shopesy
+namespace AssignmentsTest
 {
     [TestFixture]
     internal class FlipkartTest : CoreCodes

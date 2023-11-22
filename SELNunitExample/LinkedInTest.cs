@@ -101,6 +101,15 @@ namespace SELNunitExample
 
             emailInput.SendKeys(email);
             passwordInput.SendKeys(pwd);
+            TakeScreenShot();
+
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            js.ExecuteScript("arguments[0].scrollIntoView(true);", 
+                driver.FindElement(By.XPath("//button[@type='submit']")));
+            js.ExecuteScript("arguments[0].click();", 
+                driver.FindElement(By.XPath("//button[@type='submit']")));
+            Thread.Sleep(5000);
+
             ClearForm(emailInput);
             ClearForm(passwordInput);
 
@@ -118,5 +127,7 @@ namespace SELNunitExample
                 new object[] {"qwe@xyz.com","456"}
             };
         }
+        
+
     }
 }
