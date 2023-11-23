@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rediff", "Rediff\Rediff.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaptolPOM", "NaptolPOM\NaptolPOM.csproj", "{6B72873F-9023-4CE7-8EBD-61541A3D0CAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyCart", "BunnyCart\BunnyCart.csproj", "{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{6B72873F-9023-4CE7-8EBD-61541A3D0CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B72873F-9023-4CE7-8EBD-61541A3D0CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B72873F-9023-4CE7-8EBD-61541A3D0CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
