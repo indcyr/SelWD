@@ -18,6 +18,9 @@ namespace BunnyCart.TestScripts
         
         public void SignUpTest()
         {
+
+            string currdir = Directory.GetParent(@"../../../").FullName;
+            string filepath = currdir + "/Screenshots/ss_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".png";
             BCHP bchp = new(driver);
 
             bchp.ClickCreateAnAccountLink();

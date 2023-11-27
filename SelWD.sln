@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumEx", "SeleniumEx\SeleniumEx.csproj", "{36FC3F72-0A3A-42E5-8BCC-F4C380D89C2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumEx", "SeleniumEx\SeleniumEx.csproj", "{36FC3F72-0A3A-42E5-8BCC-F4C380D89C2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SELNunitExample", "SELNunitExample\SELNunitExample.csproj", "{836E7985-8305-48CA-BF43-389A8C0BDECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SELNunitExample", "SELNunitExample\SELNunitExample.csproj", "{836E7985-8305-48CA-BF43-389A8C0BDECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignments", "Assignments\Assignments.csproj", "{30E0215C-416E-4B95-86DE-1BDF33FEA9B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignments", "Assignments\Assignments.csproj", "{30E0215C-416E-4B95-86DE-1BDF33FEA9B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentsTest", "Shopesy\AssignmentsTest.csproj", "{507F496D-88C5-41D7-B051-80B46F71139F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignmentsTest", "Shopesy\AssignmentsTest.csproj", "{507F496D-88C5-41D7-B051-80B46F71139F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rediff", "Rediff\Rediff.csproj", "{AA3A4DF1-0465-4515-AF82-B689ACF1B672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rediff", "Rediff\Rediff.csproj", "{AA3A4DF1-0465-4515-AF82-B689ACF1B672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaptolPOM", "NaptolPOM\NaptolPOM.csproj", "{6B72873F-9023-4CE7-8EBD-61541A3D0CAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaptolPOM", "NaptolPOM\NaptolPOM.csproj", "{6B72873F-9023-4CE7-8EBD-61541A3D0CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyCart", "BunnyCart\BunnyCart.csproj", "{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BunnyCart", "BunnyCart\BunnyCart.csproj", "{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudy", "CaseStudy\CaseStudy.csproj", "{3EDF80EA-869A-488B-8D2E-20E42377BA41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F971245A-6A05-47B9-8E3B-ED2C01C9CE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDF80EA-869A-488B-8D2E-20E42377BA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDF80EA-869A-488B-8D2E-20E42377BA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDF80EA-869A-488B-8D2E-20E42377BA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDF80EA-869A-488B-8D2E-20E42377BA41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
